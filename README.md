@@ -59,3 +59,6 @@ To run one specific test:
 ```
 npm test file_name.js
 ```
+## Screenshot of the Unit Tests
+<img width="1440" alt="Screenshot 2023-06-02 at 22 50 07" src="https://github.com/Hitendra27/romanNumeralsKata/assets/73651340/677775be-93a7-4fec-b40c-b7fb807baf06">
+

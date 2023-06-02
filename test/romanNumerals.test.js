@@ -10,7 +10,7 @@ describe('romanNumerals', () => {
 
         // Assert
         expect(result).toBe(expected)
-    })
+    });
 })
 
 

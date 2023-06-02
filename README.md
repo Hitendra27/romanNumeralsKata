@@ -37,3 +37,25 @@ Can you think of another algorithm?
 what are the best data structures for storing all the numeral letters? (I, V, D, M etc)
 can you define the test cases in a csv file and use FIT, or generate test cases in xUnit?
 what is the best way to verify your tests are correct?
+
+## Getting started
+
+👉 _Fork_ and then _clone_ this repo to your local computer
+
+To install dependencies run:
+
+```
+npm install
+```
+
+To run the tests:
+
+```
+npm test
+```
+
+To run one specific test:
+
+```
+npm test file_name.js
+```

@@ -1,4 +1,4 @@
-import { romanNumerals } from '../challenge/romanNumerals';
+import { romanNumerals } from "./romanNumerals";
 
 describe('romanNumerals', () => {
     test('return any given input of number to roman numbers', () => {

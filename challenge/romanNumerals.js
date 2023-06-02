@@ -1,4 +1,4 @@
-const romanNumerals = (num) => {
+export const romanNumerals = (num) => {
 
     // PseudoCode
     // convert int to string in roman numbers.
@@ -8,4 +8,4 @@ const romanNumerals = (num) => {
     // 4 --> IV etc
     // find out if roman numbers method exist in JavaScript.
 
-}
+};

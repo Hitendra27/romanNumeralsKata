@@ -1,4 +1,5 @@
 export const romanNumerals = (num) => {
+    if (num === undefined) throw new Error('number is required'); 
 
     return `5`
 

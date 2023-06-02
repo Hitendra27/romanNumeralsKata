@@ -7,36 +7,122 @@ describe('romanNumerals', () => {
             romanNumerals();
         }).toThrow("number is required")
     });
-    
-    test('return any given input of number to roman numbers', () => {
+
+    test('return any given input of number to roman numerals', () => {
         // Arrange
         const expected = 'II';
 
         // Act
-        const result = romanNumerals(2)
+        const result = romanNumerals(2);
 
         // Assert
-        expect(result).toBe(expected)
+        expect(result).toBe(expected);
     });
-})
+
+    test('return roman numerals for the number 8', () => {
+        // Arrange
+        const expected = 'VIII';
+
+        // Act
+        const result = romanNumerals(8);
+
+        // Assert
+        expect(result).toBe(expected);
+    });
+
+    test('return roman numerals for the number 10', () => {
+        // Arrange
+        const expected = 'X';
+
+        // Act
+        const result = romanNumerals(10);
+
+        // Assert
+        expect(result).toBe(expected);
+    });
+
+    test('return roman numerals for the number 18', () => {
+        // Arrange
+        const expected = 'XVIII';
+
+        // Act
+        const result = romanNumerals(18);
+
+        // Assert
+        expect(result).toBe(expected);
+    });
+
+    test('return roman numerals for the number 29', () => {
+        // Arrange
+        const expected = 'XXIX';
+
+        // Act
+        const result = romanNumerals(29);
+
+        // Assert
+        expect(result).toBe(expected);
+    });
+
+    test('return roman numerals for the number 50', () => {
+        // Arrange
+        const expected = 'L';
+
+        // Act
+        const result = romanNumerals(50);
+
+        // Assert
+        expect(result).toBe(expected);
+    });
+
+    test('return roman numerals for the number 67', () => {
+        // Arrange
+        const expected = 'LXVII';
+
+        // Act
+        const result = romanNumerals(67);
+
+        // Assert
+        expect(result).toBe(expected);
+    });
+
+    test('return roman numerals for the number 100', () => {
+        // Arrange
+        const expected = 'C';
+
+        // Act
+        const result = romanNumerals(100);
+
+        // Assert
+        expect(result).toBe(expected);
+    });
+
+    test('return roman numerals for the number 1987', () => {
+        // Arrange
+        const expected = 'MCMLXXXVII';
+
+        // Act
+        const result = romanNumerals(1987);
+
+        // Assert
+        expect(result).toBe(expected);
+    });
+
+    test('return roman numerals for the number 2023', () => {
+        // Arrange
+        const expected = 'MMXXIII';
+
+        // Act
+        const result = romanNumerals(2023);
+
+        // Assert
+        expect(result).toBe(expected);
+    });
+
+
+});
 
 
 
 
 
 
-
-
-// import { sumMultiples, isValidDNA, getComplementaryDNA, isItPrime, createMatrix, areWeCovered } from '../challenges/exercise006';
-
-// describe('sumMultiples', () => {
-// 	test('returns the sum of any numbers which are a multiple of 3 or 5', () => {
-// 		// Arrange
-// 		const expected = 8;
-
-// 		// Act
-// 		const result = sumMultiples([1, 3, 5]);
-
-// 		// Assert
-// 		expect(result).toBe(expected);
-// 	});
